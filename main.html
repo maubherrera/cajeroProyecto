@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap" rel="stylesheet"> 
+    <script defer src="users.js"></script>
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="src/css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css">
+    <title>Bancomemer</title>
+    <link rel="shortcut icon" href="/src/img/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="loginContainer">
+        <nav id="navHeader">
+            <div id="logo">
+                <img src="/src/img/My project (2).png">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Acerca de Nosotros</a></li>
+                    <li><a href="#">Inversión</a><li>
+                    <li><a href="#">Préstamos</a></li>
+                    <li><a href="#">Sucursales</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="welcomeContainer">
+            <div class="welcome">
+                <h1>Recuerda NO compartir tus datos bancarios, ¡Manten tu cuenta segura!</h1>
+            </div>
+        </div>
+        
+        <div class="movimientosContainer">
+            <div class="form">
+                <form action="#">
+                    <div class="saldoContainer">
+                        <h1 id="user"></h1>
+                        <h2>Saldo disponible:</h2>
+                        <p id="balance"></p>
+                        <input type="text" name="amount" id="amount" placeholder="$ a Depositar / Retirar">
+                    </div>
+                    <input type="button" id="depositBtn" value="Depositar">
+                    <input type="button" id="withdrawalBtn" value="Retirar">
+                    <a href="#" id="closeSesion">Cerrar sesión</a>
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            <div class="copyright">
+                <p class="copyright">© Derechos reservados Bancomemer S.A. de C.V. 2022 - 2025</p>
+            </div>
+        </footer>
+</body>
+
+</html>

@@ -1,0 +1,198 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}    
+    body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://www.bbva.com/wp-content/uploads/2017/08/iStock-538811846-e1522661919593.jpg");
+}
+
+.loginContainer {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 15px;
+}
+
+#navHeader  {
+    display: flex;
+    width: 100%;
+    height: 20px;
+    padding: 30px;
+    background-color:#FFFFFF;}
+
+#logo img {
+    display: inline-block;
+    width: 35%;
+    margin-top: -150px;
+}
+
+div.menu, div.menu ul, div.menu li {
+    display: inline-block;
+}
+
+div.menu {
+    display: block;
+    font-size: 17px;
+    font-weight: bolder;
+    margin-top: -10px;
+    margin-left: 120px;
+    margin-right: 20px;
+}
+
+div.menu a {
+    text-decoration: none;
+    color: black;
+    margin: 25px;
+}
+
+div.menu a:hover {
+    text-decoration: underline;
+}
+
+
+
+.formContainer {
+    display: flex;
+    text-align: center;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+
+}
+
+.form {
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+    padding: 40px 50px 40px;
+    width: 300px;
+    height: 450px;
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+
+.form h2 {
+    font-size: 30px;
+    color: rgb(29, 29, 79);
+    font-weight: 500;
+    margin-top: 0px;
+    margin-left: 14px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.form input {
+    display: block;
+    text-align: start;
+    width: 85%;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(3, 3, 3);
+    outline: none;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+    border-radius: 15px;
+}
+
+.form ::placeholder {
+    font-weight: light;
+}
+
+
+.form input[type="button"] {
+    display: block;
+    text-align: center;
+    width: 90%;
+    padding: 20px;
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form h4 {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.form a {
+    text-align: center;
+    display: block;
+    margin-top: -15px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.form a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+footer {
+    position: relative;
+    width: 100vw;
+    height: 200px;
+    background-color: #11998e;
+}
+
+
+footer p {
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
